@@ -1,0 +1,82 @@
+body {
+    background: #1b4332;
+}
+
+.root {
+    width: 100vw;
+    max-width: 600px;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.root__title {
+    color: #001219;
+    text-shadow: 1px 1px 2px #95d5b2;
+    font-size: 2.2rem;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.div__game {
+    color: #fff;
+    background: #606c38;
+    font-size: 2rem;
+    width: 80%;
+    max-width: 600px;
+    height: 50%;
+    margin-top: 30px;
+    border: 10px groove #95d5b2;
+    border-radius: 10px;
+    text-align: center;
+    line-height: 200px;
+}
+
+.div__button {
+    width: 70%;
+    height: 20%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button {
+    color: #001219;
+    background: #2d6a4f;
+    font-size: 1.5rem;
+    border-color: #95d5b2;
+    border-style: solid;
+    border-bottom-width: 4px;
+    line-height: 20px;
+    width: 65px;
+    height: 35px;
+    border-radius: 7px 7px 15px 15px;
+}
+
+.button:hover {
+    background: gray;
+}
+
+
+
+@media screen and (min-width:768px) {
+ .root {
+     margin: 0 auto;
+     max-width: 600px;
+ }
+
+ .root__title {
+     font-size: 3rem;
+ }
+
+ .div__game {
+    line-height: 250px;
+ }
+
+ .button {
+     width: 100px;
+ }
+}
